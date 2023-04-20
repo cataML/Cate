@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 4</title>
+    <link rel="stylesheet" href="">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(223, 233, 238);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .header{
+            position: relative;
+            width: 100%;
+            background-color: black;
+            padding: 14px;
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .logo a{
+            color: white;
+            text-decoration: none;
+            letter-spacing: 4px;
+        }
+        .menu{
+            list-style: none;
+            display: flex;
+        }
+        li a{
+            margin: 0 15px;
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 15px;  
+        }
+        .active{
+            color: yellowgreen;
+        }
+        li a:hover{
+            color: yellowgreen;
+        }
+
+        .logcontainer{
+            margin: auto;
+            width: 500px;
+            max-width: 90%;
+        }
+        .logcontainer form{
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            background-color: burlywood;
+            box-shadow: 0 8px 16px black;
+        }
+        .logcontainer form h1{
+            text-align: center;
+            color: white;
+        }
+        .logcontainer form .form-input{
+            width: 100%;
+            height: 35px;
+            border-radius: 8px;
+            border: 2px solid white;
+            margin: 10px 0 18px;
+        }
+        .logcontainer form .button{
+            margin-left: 50%;
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo"><a href="">Rendeer</a></h3>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+
+        </ul>
+    </header>
+    
+    <div class="logcontainer">
+        <form action="" method="">
+            <h1>Log In</h1>
+
+            <div class="form-grp">
+                <label for="">Email Addres</label>
+                <input type="email" name="" id="" class="form-input">
+
+            </div>
+
+            <div class="form-grp">
+                <label for="">Password</label>
+                <input type="password" name="" id="" class="form-input">
+            </div> 
+
+            <input type="submit" class="button" value="Log In">
+                </form>
+
+    </div>
+</body>
+</html>
